@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fce13d37-c9c9-4e79-8d48-2d4527fef29a" name="Default Changelist" comment="" />
+    <list default="true" id="fce13d37-c9c9-4e79-8d48-2d4527fef29a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,8 +18,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+            <state relative-caret-position="86">
+              <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -25,7 +28,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/SampleTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="177">
-              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="16" selection-end-column="36" />
+              <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="16" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1212#1213#0" expanded="true" />
@@ -34,17 +37,40 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/DataProviderTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="30" column="39" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="39" />
+            <state relative-caret-position="142">
+              <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#390#391#0" expanded="true" />
-                <element signature="e#478#479#0" expanded="true" />
-                <element signature="e#1363#1364#0" expanded="true" />
-                <element signature="e#1438#1439#0" expanded="true" />
+                <element signature="e#449#450#0" expanded="true" />
+                <element signature="e#1370#1371#0" expanded="true" />
+                <element signature="e#1445#1446#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ExcelPOITest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="21" column="74" lean-forward="true" selection-start-line="21" selection-start-column="74" selection-end-line="21" selection-end-column="74" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ExcelUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="339">
+              <caret line="35" column="43" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -73,9 +99,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/SampleTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/DataProviderTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ExcelUtils.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ExcelPOITest.java" />
       </list>
     </option>
   </component>
@@ -87,10 +115,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-290" />
-    <option name="y" value="-15" />
+    <option name="x" value="49" />
+    <option name="y" value="-14" />
     <option name="width" value="1932" />
-    <option name="height" value="1022" />
+    <option name="height" value="1002" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -145,10 +173,16 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583654591170" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583659119602" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -162,11 +196,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.DataProviderTest">
+  <component name="RunManager" selected="TestNG.ExcelPOITest">
     <configuration name="DataProviderTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="automationFramework" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="DataProviderTest" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExcelPOITest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="automationFramework" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ExcelPOITest" />
       <properties />
       <listeners />
       <method v="2">
@@ -185,6 +229,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ExcelPOITest" />
         <item itemvalue="TestNG.DataProviderTest" />
         <item itemvalue="TestNG.SampleTest" />
       </list>
@@ -204,35 +249,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SampleTest - 2020.03.07 at 15h 21m 29s.xml">
-      <configuration name="SampleTest" configurationId="TestNG" />
+    <history-entry file="ExcelPOITest - 2020.03.08 at 15h 39m 40s.xml">
+      <configuration name="ExcelPOITest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SampleTest - 2020.03.07 at 15h 22m 26s.xml">
-      <configuration name="SampleTest" configurationId="TestNG" />
+    <history-entry file="ExcelPOITest - 2020.03.08 at 15h 49m 10s.xml">
+      <configuration name="ExcelPOITest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SampleTest - 2020.03.07 at 15h 22m 51s.xml">
-      <configuration name="SampleTest" configurationId="TestNG" />
+    <history-entry file="ExcelPOITest - 2020.03.08 at 15h 51m 38s.xml">
+      <configuration name="ExcelPOITest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SampleTest - 2020.03.07 at 15h 25m 58s.xml">
-      <configuration name="SampleTest" configurationId="TestNG" />
+    <history-entry file="ExcelPOITest - 2020.03.08 at 15h 55m 09s.xml">
+      <configuration name="ExcelPOITest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SampleTest - 2020.03.07 at 15h 26m 16s.xml">
-      <configuration name="SampleTest" configurationId="TestNG" />
+    <history-entry file="ExcelPOITest - 2020.03.08 at 16h 01m 25s.xml">
+      <configuration name="ExcelPOITest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="DataProviderTest - 2020.03.08 at 14h 30m 02s.xml">
-      <configuration name="DataProviderTest" configurationId="TestNG" />
+    <history-entry file="ExcelPOITest - 2020.03.08 at 16h 01m 36s.xml">
+      <configuration name="ExcelPOITest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="DataProviderTest - 2020.03.08 at 14h 31m 35s.xml">
-      <configuration name="DataProviderTest" configurationId="TestNG" />
+    <history-entry file="ExcelPOITest - 2020.03.08 at 16h 02m 42s.xml">
+      <configuration name="ExcelPOITest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="DataProviderTest - 2020.03.08 at 14h 55m 48s.xml">
-      <configuration name="DataProviderTest" configurationId="TestNG" />
+    <history-entry file="ExcelPOITest - 2020.03.08 at 16h 11m 57s.xml">
+      <configuration name="ExcelPOITest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="DataProviderTest - 2020.03.08 at 14h 56m 33s.xml">
-      <configuration name="DataProviderTest" configurationId="TestNG" />
+    <history-entry file="ExcelPOITest - 2020.03.08 at 16h 16m 12s.xml">
+      <configuration name="ExcelPOITest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="DataProviderTest - 2020.03.08 at 14h 57m 57s.xml">
-      <configuration name="DataProviderTest" configurationId="TestNG" />
+    <history-entry file="ExcelPOITest - 2020.03.08 at 16h 16m 48s.xml">
+      <configuration name="ExcelPOITest" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -244,16 +289,16 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25020242" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25020242" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32962963" />
+      <window_info anchor="bottom" id="Messages" weight="0.13518518" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21111111" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.098148145" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.062962964" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -271,10 +316,10 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/DataProviderTest.java</url>
-          <line>30</line>
+          <url>file://$PROJECT_DIR$/src/test/java/ExcelPOITest.java</url>
+          <line>14</line>
           <properties />
-          <option name="timeStamp" value="2" />
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -282,29 +327,57 @@
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
       <expression>
-        <expression-string>driver.findElement(By.xpath(&quot;//div[@id='result-stats']&quot;)).getText()</expression-string>
+        <expression-string>testObjArray</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>driver.findElement(By.xpath(&quot;//div[@id='result-stats']&quot;))</expression-string>
+        <expression-string>webDriver.findElement(By.xpath(&quot;//div[@id='sciOutPut']&quot;)).getText().trim()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>webDriver.findElement(By.xpath(&quot;//div[@id='sciOutPut']&quot;)).getText().substring(0,1)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>webDriver.findElement(By.xpath(&quot;//div[@id='sciOutPut']&quot;)).getText().substring(0)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>webDriver.findElement(By.xpath(&quot;//div[@id='sciOutPut']&quot;)).getText()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>webDriver.findElement(By.xpath(&quot;//div[@id='sciOutPut']&quot;)).getText())</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>result.equals(webDriver.findElement(By.xpath(&quot;//div[@id='sciOutPut']&quot;)).getText())</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>Assert.assertTrue(result.equals(webDriver.findElement(By.xpath(&quot;//div[@id='sciOutPut']&quot;)).getText()), &quot;Result is correct&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>driver.findElement(By.xpath(&quot;//div[@id='result-stats']&quot;)).getText()</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/SampleTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="177">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="16" selection-end-column="36" />
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="16" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1212#1213#0" expanded="true" />
@@ -312,16 +385,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/DataProviderTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="30" column="39" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="39" />
+        <state relative-caret-position="142">
+          <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#390#391#0" expanded="true" />
-            <element signature="e#478#479#0" expanded="true" />
-            <element signature="e#1363#1364#0" expanded="true" />
-            <element signature="e#1438#1439#0" expanded="true" />
+            <element signature="e#449#450#0" expanded="true" />
+            <element signature="e#1370#1371#0" expanded="true" />
+            <element signature="e#1445#1446#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ExcelUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="35" column="43" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ExcelPOITest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="21" column="74" lean-forward="true" selection-start-line="21" selection-start-column="74" selection-end-line="21" selection-end-column="74" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
