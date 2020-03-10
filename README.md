@@ -1,2 +1,2 @@
 # automationFramework
-An automation test framework for webUI and API testing, based on Selenium, TestNG, Keyword-Driven, ...
+An simple automation test framework example based on Selenium, TestNG
