@@ -3,6 +3,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.*;
+import utils.ExcelUtils;
 
 import java.util.concurrent.TimeUnit;
 
@@ -11,7 +12,7 @@ public class ExcelPOITest {
 
     @DataProvider(name = "CalculationAdd")
     public static Object[][] Add() throws Exception {
-        Object[][] testObjArray = ExcelUtils.getTableArray("D:\\Study\\automationFramework\\src\\main\\resources\\Data.xlsx","Sheet1",3);
+        Object[][] testObjArray = ExcelUtils.getTableArray("D:\\Study\\automationFramework\\src\\main\\resources\\Data.xlsx", "Sheet1", 3);
         return (testObjArray);
     }
 
