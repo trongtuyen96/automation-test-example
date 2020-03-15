@@ -16,7 +16,7 @@ public class DataProviderTest {
 
     @BeforeTest
     public void setWebDriver() {
-        System.setProperty("webdriver.chrome.driver", "D:\\Study\\automationFramework\\src\\main\\resources\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "src\\main\\resources\\chromedriver.exe");
         webDriver = new ChromeDriver();
         webDriver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
         webDriver.get("https://www.calculator.net/");

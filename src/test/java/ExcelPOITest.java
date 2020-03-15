@@ -12,13 +12,13 @@ public class ExcelPOITest {
 
     @DataProvider(name = "CalculationAdd")
     public static Object[][] Add() throws Exception {
-        Object[][] testObjArray = ExcelUtils.getTableArray("D:\\Study\\automationFramework\\src\\main\\resources\\Data.xlsx", "Sheet1", 3);
+        Object[][] testObjArray = ExcelUtils.getTableArray("src\\main\\resources\\Data.xlsx", "Sheet1", 3);
         return (testObjArray);
     }
 
     @BeforeTest
     public void setWebDriver() {
-        System.setProperty("webdriver.chrome.driver", "D:\\Study\\automationFramework\\src\\main\\resources\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "src\\main\\resources\\chromedriver.exe");
         webDriver = new ChromeDriver();
         webDriver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
         webDriver.get("https://www.calculator.net/");
