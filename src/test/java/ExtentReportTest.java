@@ -33,10 +33,7 @@ public class ExtentReportTest {
 
     @BeforeMethod
     public void before() {
-        System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
-        webDriver = new ChromeDriver();
-        webDriver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
-        webDriver.get("https://www.calculator.net/");
+        setUpWebDriver();
     }
 
     @Test
