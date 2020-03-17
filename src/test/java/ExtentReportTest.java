@@ -99,7 +99,7 @@ public class ExtentReportTest {
     }
 
     private void setUpWebDriver() {
-        System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "src\\main\\resources\\chromedriver.exe");
         webDriver = new ChromeDriver();
         webDriver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
         webDriver.get("https://www.calculator.net/");
@@ -135,7 +135,7 @@ public class ExtentReportTest {
         TakesScreenshot ts = (TakesScreenshot) driver;
         File source = ts.getScreenshotAs(OutputType.FILE);
 
-        String destination = "test-output/screenshots/" + dateName + ".png";
+        String destination = System.getProperty("user.dir") + "\\test-output\\screenshots\\" + dateName + ".png";
         File dest = new File(destination);
         FileUtils.copyFile(source, dest);
         return destination;

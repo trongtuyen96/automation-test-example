@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fce13d37-c9c9-4e79-8d48-2d4527fef29a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ExtentReportTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ExtentReportTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -62,22 +61,24 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ExtentReportTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="496">
-              <caret line="82" column="122" selection-start-line="82" selection-start-column="122" selection-end-line="82" selection-end-column="122" />
+            <state relative-caret-position="190">
+              <caret line="74" column="18" selection-start-line="74" selection-start-column="18" selection-end-line="74" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3906#3907#0" expanded="true" />
-                <element signature="e#3943#3944#0" expanded="true" />
+                <element signature="e#1123#1124#0" expanded="true" />
+                <element signature="e#1155#1156#0" expanded="true" />
+                <element signature="e#3607#3608#0" expanded="true" />
+                <element signature="e#3644#3645#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/ExtentTest.class">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/extent-config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6307">
-              <caret line="424" selection-start-line="424" selection-end-line="424" />
+            <state relative-caret-position="255">
+              <caret line="32" column="34" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -136,8 +137,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2612" />
-    <option name="width" value="1235" />
+    <option name="x" value="2614" />
+    <option name="width" value="1233" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -150,48 +151,50 @@
         <subPane>
           <expand>
             <path>
-              <item name="automationFramework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="automationFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="automationTestExample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="automationTestExample" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="automationFramework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="automationFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="automationTestExample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="automationTestExample" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="automationFramework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="automationFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="automationTestExample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="automationTestExample" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="automationFramework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="automationFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="automationTestExample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="automationTestExample" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="automationFramework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="automationFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="automationTestExample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="automationTestExample" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="automationFramework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="automationFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="automationTestExample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="automationTestExample" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="execution" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="automationTestExample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="automationTestExample" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="automationFramework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="automationFramework" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="automationFramework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="automationFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="automationTestExample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="automationTestExample" type="462c0819:PsiDirectoryNode" />
               <item name="test-output" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -203,7 +206,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1584460691160" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1584462235595" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
@@ -315,18 +318,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ExtentReportTest - 2020.03.17 at 22h 20m 41s.xml">
-      <configuration name="ExtentReportTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ExtentReportTest - 2020.03.17 at 22h 21m 13s.xml">
-      <configuration name="ExtentReportTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ExtentReportTest - 2020.03.17 at 22h 21m 56s.xml">
-      <configuration name="ExtentReportTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ExtentReportTest - 2020.03.17 at 22h 25m 41s.xml">
-      <configuration name="ExtentReportTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="ExtentReportTest - 2020.03.17 at 22h 28m 58s.xml">
       <configuration name="ExtentReportTest" configurationId="TestNG" />
     </history-entry>
@@ -345,11 +336,24 @@
     <history-entry file="ExtentReportTest - 2020.03.17 at 22h 47m 12s.xml">
       <configuration name="ExtentReportTest" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="ExtentReportTest - 2020.03.17 at 23h 04m 53s.xml">
+      <configuration name="ExtentReportTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ExtentReportTest - 2020.03.17 at 23h 13m 31s.xml">
+      <configuration name="ExtentReportTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ExtentReportTest - 2020.03.17 at 23h 15m 45s.xml">
+      <configuration name="ExtentReportTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ExtentReportTest - 2020.03.17 at 23h 17m 17s.xml">
+      <configuration name="ExtentReportTest" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="2873" y="0" width="974" height="1047" extended-state="0" />
+    <frame x="2614" y="0" width="1233" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.38183808" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30179027" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -358,7 +362,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.23681258" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.23681258" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.18555556" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -517,13 +521,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test-output/ExtentReport.html" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/extent-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="34" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar!/com/google/common/io/Files.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="173">
@@ -539,6 +536,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test-output/screenshots/20200316120443.png" />
+    <entry file="file://$PROJECT_DIR$/test-output/screenshots/20200317100400.png" />
     <entry file="file://$PROJECT_DIR$/src/test/java/DataProviderTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -568,13 +566,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/ExtentTest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6307">
-          <caret line="424" selection-start-line="424" selection-end-line="424" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ATWTPageFactoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -582,17 +573,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test-output/screenshots/20200317100400.png">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/ExtentTest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="779">
+          <caret line="424" selection-start-line="424" selection-end-line="424" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/extent-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="32" column="34" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ExtentReportTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="82" column="122" selection-start-line="82" selection-start-column="122" selection-end-line="82" selection-end-column="122" />
+        <state relative-caret-position="190">
+          <caret line="74" column="18" selection-start-line="74" selection-start-column="18" selection-end-line="74" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3906#3907#0" expanded="true" />
-            <element signature="e#3943#3944#0" expanded="true" />
+            <element signature="e#1123#1124#0" expanded="true" />
+            <element signature="e#1155#1156#0" expanded="true" />
+            <element signature="e#3607#3608#0" expanded="true" />
+            <element signature="e#3644#3645#0" expanded="true" />
           </folding>
         </state>
       </provider>
