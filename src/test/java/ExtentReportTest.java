@@ -1,5 +1,6 @@
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.MediaEntityBuilder;
 import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.markuputils.ExtentColor;
 import com.aventstack.extentreports.markuputils.MarkupHelper;
@@ -32,7 +33,7 @@ public class ExtentReportTest {
 
     @BeforeMethod
     public void before() {
-        System.setProperty("webdriver.chrome.driver", "src\\main\\resources\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
         webDriver = new ChromeDriver();
         webDriver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
         webDriver.get("https://www.calculator.net/");
@@ -73,12 +74,14 @@ public class ExtentReportTest {
             logger.log(Status.FAIL, MarkupHelper.createLabel(result.getName() + " - Test Case FAILED", ExtentColor.RED));
             logger.log(Status.FAIL, MarkupHelper.createLabel(result.getThrowable() + " - Test Case FAILED", ExtentColor.RED));
 
-            //To capture screenshot path and store the path of the screenshot in the string "screenshotPath"
-            //We do pass the path captured by this method in to the extent reports using "logger.addScreenCapture" method.
+            /* Add screenshot as FILE
             String screenshotPath = getScreenShot(webDriver);
+            logger.info("Screenshot", MediaEntityBuilder.createScreenCaptureFromPath(screenshotPath).build());
+            */
 
-            //To add it in the extent report
-            logger.info("Screenshot:" + logger.addScreenCaptureFromPath(screenshotPath));
+            // Add screenshot as BASE64
+            logger.info("Screenshot: ", MediaEntityBuilder.createScreenCaptureFromBase64String(getBase64ScreenShot(webDriver)).build());
+
         } else if (result.getStatus() == ITestResult.SKIP) {
             logger.log(Status.SKIP, MarkupHelper.createLabel(result.getName() + " - Test Case SKIPPED", ExtentColor.ORANGE));
         } else if (result.getStatus() == ITestResult.SUCCESS) {
@@ -99,7 +102,7 @@ public class ExtentReportTest {
     }
 
     private void setUpWebDriver() {
-        System.setProperty("webdriver.chrome.driver", "src\\main\\resources\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
         webDriver = new ChromeDriver();
         webDriver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
         webDriver.get("https://www.calculator.net/");
@@ -135,9 +138,15 @@ public class ExtentReportTest {
         TakesScreenshot ts = (TakesScreenshot) driver;
         File source = ts.getScreenshotAs(OutputType.FILE);
 
-        String destination = System.getProperty("user.dir") + "\\test-output\\screenshots\\" + dateName + ".png";
+        String destination = "test-output/screenshots/" + dateName + ".png";
         File dest = new File(destination);
         FileUtils.copyFile(source, dest);
-        return dest.getAbsolutePath();
+        return destination;
+    }
+
+    //This method is to capture the screenshot and return the base64 string of the screenshot.
+    private static String getBase64ScreenShot(WebDriver driver) throws IOException {
+        TakesScreenshot ts = (TakesScreenshot) driver;
+        return ts.getScreenshotAs(OutputType.BASE64);
     }
 }
