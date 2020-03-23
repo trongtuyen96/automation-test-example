@@ -12,6 +12,7 @@
 
 - [Key Example](#key-examples)
 - [How To Use](#how-to-use)
+- [Author](#author)
 - [License](#license)
 
 ## Key Examples
@@ -41,6 +42,26 @@ Apply ExtentReport to generate beautiful, fully-detailed, well-organized result 
 Automatically retry to execute failed test cases.
 
 ## How to use
+
+## Author
+
+<h4 align="center">
+	Tuyen Nguyen - QA automation
+	</h4>
+	<h5 align="center">
+	<a href="trongtuyen96@gmail.com">trongtuyen96@gmail.com</a>
+	</h5>
+<p align="center">
+	 <a alt="Github" href="https://github.com/trongtuyen96">
+    <img src="https://user-images.githubusercontent.com/25218255/47360756-794c1f00-d6fa-11e8-86fa-7b1c2e4dda92.png" width="50">
+  </a>
+		 <a alt="LinkedIn" href="https://www.linkedin.com/in/tuyen-nguyen-trong-516a69121/">
+    <img src="https://user-images.githubusercontent.com/25218255/47360366-8583ac80-d6f9-11e8-8871-219802a9a162.png" width="50">
+  </a>
+		 <a alt="Facebook" href="https://www.facebook.com/tuyen.trong.3">
+    <img src="https://user-images.githubusercontent.com/25218255/47360363-84eb1600-d6f9-11e8-8029-818481536200.png" width="50">
+  </a>
+</p>
 
 ## License
 
