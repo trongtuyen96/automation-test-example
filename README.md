@@ -16,21 +16,29 @@
 
 ## Key Examples
 
-1. Sample Test: An example where setting up an chrome driver, run simple test and validate result.
+- Sample Test: 
+An example where setting up an chrome driver, run simple test and validate result.
 
-2. DataProvider Test: Apply dataProvider annotation from TestNG to parameterized input data.
+- DataProvider Test: 
+Apply dataProvider annotation from TestNG to parameterized input data.
 
-3. ExcelPOI Test: Data-Driven with data read from Excel file, excel utilities provided.
+- ExcelPOI Test: 
+Data-Driven with data read from Excel file, excel utilities provided.
 
-4. MultiBrowser Test: Execute test on multiple browsers, parallel run allowed.
+- MultiBrowser Test: 
+Execute test on multiple browsers, parallel run allowed.
 
-5. ATWTT Test: An test with test page (automatedtestingwithtuyen.com) were built following Page Object Model.
+- ATWTT Test: 
+An test with test page (automatedtestingwithtuyen.com) were built following Page Object Model.
 
-6. ATWTT Page Factory Test: An test with test page (automatedtestingwithtuyen.com) were built following Page Factory.
+- ATWTT Page Factory Test: 
+An test with test page (automatedtestingwithtuyen.com) were built following Page Factory.
 
-7. ExtentReport Test: Apply ExtentReport to generate beautiful, fully-detailed, well-organized result report.
+- ExtentReport Test: 
+Apply ExtentReport to generate beautiful, fully-detailed, well-organized result report.
 
-8. Retry Analyzer Test: Automatically retry to execute failed test cases.
+- Retry Analyzer Test: 
+Automatically retry to execute failed test cases.
 
 ## How to use
 
