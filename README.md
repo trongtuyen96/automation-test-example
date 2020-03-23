@@ -46,7 +46,7 @@ Automatically retry to execute failed test cases.
 ## Author
 
 <h4 align="center">
-	Tuyen Nguyen - QA automation
+	Tuyen Nguyen - QA Automation Engineer
 	</h4>
 	<h5 align="center">
 	<a href="trongtuyen96@gmail.com">trongtuyen96@gmail.com</a>
