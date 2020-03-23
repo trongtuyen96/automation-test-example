@@ -17,7 +17,82 @@
 ## Key Examples
 
 - Sample Test: An example where setting up an chrome driver, run simple test and validate result.
+```
+public class SampleTest {
+    public String baseURL = "http://google.com";
+    public WebDriver driver;
+
+    @BeforeTest
+    public void setUp() {
+        System.setProperty("webdriver.chrome.driver", "src\\main\\resources\\chromedriver.exe");
+        driver = new ChromeDriver();
+        driver.get(baseURL);
+    }
+
+    @Test(priority = 0)
+    public void Search() throws InterruptedException {
+        driver.findElement(By.cssSelector("[name='q']")).sendKeys("Automation Test");
+        Thread.sleep(2000);
+        driver.findElement(By.xpath("//div[@class='tfB0Bf']//input[@name='btnK']")).click();
+    }
+
+    @Test(priority = 1)
+    public void validateResult() {
+        Assert.assertTrue(driver.findElement(By.xpath("//div[@id='result-stats']")).getText().length() > 0, "In result page");
+    }
+
+    @AfterTest
+    public void close() {
+        driver.close();
+    }
+}
+```
+
 - DataProvider Test: Apply dataProvider annotation from TestNG to parameterized input data.
+```
+public class DataProviderTest {
+    private static WebDriver webDriver;
+
+    @DataProvider(name = "CalculationAdd")
+    public static Object[][] Add() {
+        return new Object[][]{{"15", "100", "115"}, {"1564", "6", "1570"}};
+    }
+
+    @BeforeTest
+    public void setWebDriver() {
+        System.setProperty("webdriver.chrome.driver", "src\\main\\resources\\chromedriver.exe");
+        webDriver = new ChromeDriver();
+        webDriver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
+        webDriver.get("https://www.calculator.net/");
+    }
+
+    @Test(dataProvider = "CalculationAdd")
+    public void test(String first, String second, String result) {
+        pressNumber(first);
+        webDriver.findElement(By.xpath("//span[.='+']")).click();
+        pressNumber(second);
+        webDriver.findElement(By.xpath("//span[.='=']")).click();
+        Assert.assertTrue(result.equals(webDriver.findElement(By.xpath("//div[@id='sciOutPut']")).getText().trim()), "Result is correct");
+    }
+
+    @AfterMethod
+    public void clearAfter() {
+        webDriver.findElement(By.xpath("//span[.='AC']")).click();
+    }
+
+    @AfterTest
+    public void close() {
+        webDriver.close();
+    }
+
+    public void pressNumber(String number) {
+        for (char i : number.toCharArray()) {
+            webDriver.findElement(By.xpath("//span[.='" + i + "']")).click();
+        }
+    }
+}
+```
+
 - ExcelPOI Test: Data-Driven with data read from Excel file, excel utilities provided.
 - MultiBrowser Test: Execute test on multiple browsers, parallel run allowed.
 - ATWTT Test: An test with test page (automatedtestingwithtuyen.com) were built following Page Object Model.
