@@ -35,7 +35,7 @@ An test with test page (automatedtestingwithtuyen.com) were built following Page
 An test with test page (automatedtestingwithtuyen.com) were built following Page Factory.
 
 - ExtentReport Test: 
-Apply ExtentReport to generate beautiful, fully-detailed, well-organized result report.
+Apply ExtentReport to generate beautiful, fully-detailed, well-organized result report. Fail screenshots captured.
 
 - Retry Analyzer Test: 
 Automatically retry to execute failed test cases.
