@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="CapMap"><img src="https://github.com/trongtuyen96/automationTestExample/blob/master/Background_with_title.png" alt="CarMap" width="200"></a>
+  <a href="background"><img src="https://github.com/trongtuyen96/automationTestExample/blob/master/Background_with_title.PNG" alt="background"></a>
   <br>
   Automation Test Example
   <br>
