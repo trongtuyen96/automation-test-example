@@ -6,7 +6,7 @@
   <br>
 </h1>
 
-<h3 align="center" style="bold">Simple automation test framework examples based on Selenium, TestNG framework</h3>
+<h3 align="center" style="bold">Simple automation test examples based on Selenium, TestNG framework</h3>
 
 ## Table of Contents
 
