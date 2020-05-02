@@ -9,14 +9,12 @@
 <h3 align="center" style="bold">Simple automation test examples based on Selenium, TestNG framework</h3>
 
 ## Table of Contents
-
 - [Key Example](#key-examples)
 - [How To Use](#how-to-use)
 - [Author](#author)
 - [License](#license)
 
 ## Key Examples
-
 - Sample Test: 
 An example where setting up an chrome driver, run simple test and validate result.
 
@@ -44,7 +42,6 @@ Automatically retry to execute failed test cases.
 ## How to use
 
 ## Author
-
 <h4 align="center">
 	Tuyen Nguyen - QA Automation Engineer
 	</h4>
@@ -64,7 +61,6 @@ Automatically retry to execute failed test cases.
 </p>
 
 ## License
-
 ~~~~
 Copyright 2020 Tuyen Nguyen
 
