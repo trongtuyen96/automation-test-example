@@ -10,7 +10,6 @@
 
 ## Table of Contents
 - [Key Example](#key-examples)
-- [How To Use](#how-to-use)
 - [Author](#author)
 - [License](#license)
 
@@ -38,8 +37,6 @@ Apply ExtentReport to generate beautiful, fully-detailed, well-organized result 
 
 - Retry Analyzer Test: 
 Automatically retry to execute failed test cases.
-
-## How to use
 
 ## Author
 <h4 align="center">
