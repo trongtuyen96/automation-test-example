@@ -3,6 +3,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.*;
+import utils.MyWebDriverManger;
 import utils.RetryAnalyzer;
 
 public class RetryAnalyzerTest {
@@ -11,7 +12,12 @@ public class RetryAnalyzerTest {
 
     @BeforeTest
     public void setUp() {
-        System.setProperty("webdriver.chrome.driver", "src\\main\\resources\\chromedriver.exe");
+
+        // Old way to initialize web driver
+        // System.setProperty("webdriver.chrome.driver", "src\\main\\resources\\chromedriver.exe");
+        // driver = new ChromeDriver();
+
+        driver = new MyWebDriverManger().initBrowser("CHROME");
         driver = new ChromeDriver();
     }
 

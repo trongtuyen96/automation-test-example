@@ -1,8 +1,8 @@
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.*;
+import utils.MyWebDriverManger;
 
 import java.util.concurrent.TimeUnit;
 
@@ -16,8 +16,12 @@ public class DataProviderTest {
 
     @BeforeTest
     public void setWebDriver() {
-        System.setProperty("webdriver.chrome.driver", "src\\main\\resources\\chromedriver.exe");
-        webDriver = new ChromeDriver();
+
+        // Old way to initialize web driver
+        // System.setProperty("webdriver.chrome.driver", "src\\main\\resources\\chromedriver.exe");
+        // driver = new ChromeDriver();
+
+        webDriver = new MyWebDriverManger().initBrowser("CHROME");
         webDriver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
         webDriver.get("https://www.calculator.net/");
     }

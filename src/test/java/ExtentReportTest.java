@@ -10,10 +10,10 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.ITestResult;
 import org.testng.annotations.*;
+import utils.MyWebDriverManger;
 
 import java.io.File;
 import java.io.IOException;
@@ -99,8 +99,12 @@ public class ExtentReportTest {
     }
 
     private void setUpWebDriver() {
-        System.setProperty("webdriver.chrome.driver", "src\\main\\resources\\chromedriver.exe");
-        webDriver = new ChromeDriver();
+
+        // Old way to initialize web driver
+        // System.setProperty("webdriver.chrome.driver", "src\\main\\resources\\chromedriver.exe");
+        // driver = new ChromeDriver();
+
+        webDriver = new MyWebDriverManger().initBrowser("CHROME");
         webDriver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
         webDriver.get("https://www.calculator.net/");
     }

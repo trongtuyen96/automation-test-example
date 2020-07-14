@@ -1,10 +1,10 @@
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
+import utils.MyWebDriverManger;
 
 public class SampleTest {
     public String baseURL = "http://google.com";
@@ -12,8 +12,12 @@ public class SampleTest {
 
     @BeforeTest
     public void setUp() {
-        System.setProperty("webdriver.chrome.driver", "src\\main\\resources\\chromedriver.exe");
-        driver = new ChromeDriver();
+
+        //// Old way to initialize web driver
+        // System.setProperty("webdriver.chrome.driver", "src\\main\\resources\\chromedriver.exe");
+        // driver = new ChromeDriver();
+
+        driver = new MyWebDriverManger().initBrowser("CHROME");
         driver.get(baseURL);
     }
 

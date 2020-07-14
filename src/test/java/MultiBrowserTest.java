@@ -1,12 +1,11 @@
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
+import utils.MyWebDriverManger;
 
 public class MultiBrowserTest {
     static WebDriver driver;
@@ -14,13 +13,17 @@ public class MultiBrowserTest {
     @Parameters("browser")
     @BeforeTest
     public void setDriver(String browser) {
-        if (browser.toLowerCase().equals("chrome")) {
+
+        // Old way to initialize web driver
+        /* if (browser.toLowerCase().equals("chrome")) {
             System.setProperty("webdriver.chrome.driver", "src\\main\\resources\\chromedriver.exe");
             driver = new ChromeDriver();
         } else if (browser.toLowerCase().equals("firefox")) {
             System.setProperty("webdriver.gecko.driver", "src\\main\\resources\\geckodriver.exe");
             driver = new FirefoxDriver();
-        }
+        } */
+
+        driver = new MyWebDriverManger().initBrowser(browser.toUpperCase());
         driver.get("http://google.com");
     }
 
