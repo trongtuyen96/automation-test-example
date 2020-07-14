@@ -9,14 +9,11 @@
 <h3 align="center" style="bold">Simple automation test examples based on Selenium, TestNG framework</h3>
 
 ## Table of Contents
-
 - [Key Example](#key-examples)
-- [How To Use](#how-to-use)
 - [Author](#author)
 - [License](#license)
 
 ## Key Examples
-
 - Sample Test: 
 An example where setting up an chrome driver, run simple test and validate result.
 
@@ -41,10 +38,7 @@ Apply ExtentReport to generate beautiful, fully-detailed, well-organized result 
 - Retry Analyzer Test: 
 Automatically retry to execute failed test cases.
 
-## How to use
-
 ## Author
-
 <h4 align="center">
 	Tuyen Nguyen - QA Automation Engineer
 	</h4>
@@ -55,7 +49,7 @@ Automatically retry to execute failed test cases.
 	 <a alt="Github" href="https://github.com/trongtuyen96">
     <img src="https://user-images.githubusercontent.com/25218255/47360756-794c1f00-d6fa-11e8-86fa-7b1c2e4dda92.png" width="50">
   </a>
-		 <a alt="LinkedIn" href="https://www.linkedin.com/in/tuyen-nguyen-trong-516a69121/">
+		 <a alt="LinkedIn" href="https://www.linkedin.com/in/tuyennguyen96/">
     <img src="https://user-images.githubusercontent.com/25218255/47360366-8583ac80-d6f9-11e8-8871-219802a9a162.png" width="50">
   </a>
 		 <a alt="Facebook" href="https://www.facebook.com/tuyen.trong.3">
@@ -64,7 +58,6 @@ Automatically retry to execute failed test cases.
 </p>
 
 ## License
-
 ~~~~
 Copyright 2020 Tuyen Nguyen
 
