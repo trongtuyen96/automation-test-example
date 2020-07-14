@@ -38,7 +38,7 @@ Apply ExtentReport to generate beautiful, fully-detailed, well-organized result 
 - Retry Analyzer Test: 
 Automatically retry to execute failed test cases.
 
-Additional: Dynamically find the suitable web driver (chromedriver, firefox driver, etc) against multiple versions in runtime via WebDriverManager.
+Addition: Dynamically find the suitable web driver (chromedriver, firefoxdriver, etc) against multiple versions in runtime via WebDriverManager.
 
 ## Author
 <h4 align="center">
