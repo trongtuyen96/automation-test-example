@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="automationFramework" />
         <module name="automationTestExample" />
+        <module name="automation-test-example" />
       </profile>
     </annotationProcessing>
   </component>

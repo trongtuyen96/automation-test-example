@@ -1,4 +1,5 @@
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
@@ -23,9 +24,7 @@ public class SampleTest {
 
     @Test(priority = 0)
     public void Search() throws InterruptedException {
-        driver.findElement(By.cssSelector("[name='q']")).sendKeys("Automation Test");
-        Thread.sleep(2000);
-        driver.findElement(By.xpath("//div[@class='tfB0Bf']//input[@name='btnK']")).click();
+        driver.findElement(By.cssSelector("[name='q']")).sendKeys("Automation Test", Keys.ENTER);
     }
 
     @Test(priority = 1)
