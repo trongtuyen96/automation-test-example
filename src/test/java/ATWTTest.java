@@ -51,10 +51,10 @@ public class ATWTTest {
 
         Thread.sleep(2000);
 
-        homePage.search("SOLID");
+        homePage.search("S.O.L.I.D");
 
         Thread.sleep(2000);
-        Assert.assertTrue(driver.getCurrentUrl().equals("https://www.automatedtestingwithtuyen.com/home/search/solid"), "User is in Search result page");
+        Assert.assertTrue(driver.getCurrentUrl().equals("https://www.automatedtestingwithtuyen.com/home/search/s.o.l.i.d"), "User is in Search result page");
     }
 
     @AfterTest

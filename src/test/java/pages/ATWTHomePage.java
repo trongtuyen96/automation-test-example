@@ -10,7 +10,7 @@ public class ATWTHomePage {
     private By btnHome = By.xpath("//p[.='HOME']");
     private By btnForum = By.xpath("//p[.='FORUM']");
     private By btnAuthor = By.xpath("//p[.='AUTHOR']");
-    private By icFind = By.cssSelector("._3p7bQ");
+    private By icFind = By.cssSelector("[role='button']");
     private By txtSearch = By.cssSelector("[placeholder='Search']");
 
     public ATWTHomePage(WebDriver driver) {

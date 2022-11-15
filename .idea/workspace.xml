@@ -5,16 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fce13d37-c9c9-4e79-8d48-2d4527fef29a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/automation-test-example.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/execution/MultiBrowser.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/execution/MultiBrowser.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/execution/Parallel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/execution/Parallel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MultiBrowserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MultiBrowserTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SampleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/MyWebDriverManger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/MyWebDriverManger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ATWTTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ATWTTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/ATWTHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/ATWTHomePage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,7 +135,7 @@
   <component name="PropertiesComponent">
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1594741029708" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../automation-test-framework-api-pro" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
@@ -165,11 +158,22 @@
       <recent name="D:\Study\automationFramework\src\test\utils" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.D:/Study/Projects/automation-test-example/src/test/execution/Parallel.xml">
+  <component name="RunManager" selected="TestNG.ATWTTest (1)">
     <configuration name="ATWTPageFactoryTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="automationTestExample" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ATWTPageFactoryTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ATWTTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="automation-test-example" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ATWTTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -198,17 +202,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExtentReportTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="automationTestExample" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ExtentReportTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="RetryAnalyzerTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="automationTestExample" />
       <option name="PACKAGE_NAME" value="" />
@@ -222,11 +215,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ATWTTest (1)" />
         <item itemvalue="TestNG.D:/Study/Projects/automation-test-example/src/test/execution/Parallel.xml" />
         <item itemvalue="TestNG.ATWTPageFactoryTest" />
         <item itemvalue="TestNG.ATWTTest" />
         <item itemvalue="TestNG.RetryAnalyzerTest" />
-        <item itemvalue="TestNG.ExtentReportTest" />
       </list>
     </recent_temporary>
   </component>
