@@ -1,5 +1,3 @@
-import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.*;
@@ -27,16 +25,11 @@ public class MultiBrowserTest {
 
     @Test
     public void Search() throws InterruptedException {
-        /*
-        driver.findElement(By.cssSelector("[name='q']")).sendKeys("Automation Test", Keys.ENTER);
-        Thread.sleep(2000);
-        Assert.assertTrue(driver.findElement(By.xpath("//div[@id='result-stats']")).getText().length() > 0, "In result page");
-         */
-        Assert.assertEquals(driver.getCurrentUrl(), "https://www.google.com/","In Google page");
+        Assert.assertEquals(driver.getCurrentUrl(), "https://www.google.com/", "In Google page");
         Thread.sleep(1000);
         driver.get("https://www.automatedtestingwithtuyen.com/");
         Thread.sleep(1000);
-        Assert.assertEquals(driver.getCurrentUrl(), "https://www.automatedtestingwithtuyen.com/","In ATWT page");
+        Assert.assertEquals(driver.getCurrentUrl(), "https://www.automatedtestingwithtuyen.com/", "In ATWT page");
     }
 
     @AfterMethod
