@@ -2,17 +2,14 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Parameters;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 import utils.MyWebDriverManger;
 
 public class MultiBrowserTest {
     private WebDriver driver;
 
     @Parameters("browser")
-    @BeforeTest
+    @BeforeMethod
     public void setDriver(String browser) {
 
         // Old way to initialize web driver
@@ -25,17 +22,24 @@ public class MultiBrowserTest {
         } */
 
         driver = new MyWebDriverManger().initBrowser(browser.toUpperCase());
-        driver.get("http://google.com");
+        driver.get("https://www.google.com");
     }
 
     @Test
     public void Search() throws InterruptedException {
+        /*
         driver.findElement(By.cssSelector("[name='q']")).sendKeys("Automation Test", Keys.ENTER);
         Thread.sleep(2000);
         Assert.assertTrue(driver.findElement(By.xpath("//div[@id='result-stats']")).getText().length() > 0, "In result page");
+         */
+        Assert.assertEquals(driver.getCurrentUrl(), "https://www.google.com/","In Google page");
+        Thread.sleep(1000);
+        driver.get("https://www.automatedtestingwithtuyen.com/");
+        Thread.sleep(1000);
+        Assert.assertEquals(driver.getCurrentUrl(), "https://www.automatedtestingwithtuyen.com/","In ATWT page");
     }
 
-    @AfterTest
+    @AfterMethod
     public void close() {
         driver.close();
     }
