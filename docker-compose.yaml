@@ -1,0 +1,34 @@
+version: '3.4'
+
+networks:
+  grafana:
+
+services:
+  # InfluxDB is a fast time-series database, which is supported by K6 as an output target
+  # for realtime monitoring of a test. Whilst K6 is running the load test, it will stream statistics about the run to InfluxDB.
+  influxdb:
+    image: influxdb:1.8
+    #    entrypoint: /bin/sh
+    #    user: root
+    networks:
+      - grafana
+    ports:
+      - "8086:8086"
+    environment:
+      - INFLUXDB_DB=selenium_test_results
+
+  # Grafana is a beautiful browser UI for data visualisation, which supports InfluxDB as a data source
+  grafana:
+    image: grafana/grafana:latest
+    #    entrypoint: /bin/sh
+    #    user: root
+    networks:
+      - grafana
+    ports:
+      - "3000:3000"
+    environment:
+      - GF_AUTH_ANONYMOUS_ORG_ROLE=Admin
+      - GF_AUTH_ANONYMOUS_ENABLED=true
+      - GF_AUTH_BASIC_ENABLED=false
+    volumes:
+      - ./src/test/java/config/grafana-datasource.yaml:/etc/grafana/provisioning/datasources/datasource.yaml

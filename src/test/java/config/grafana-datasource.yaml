@@ -1,0 +1,12 @@
+# Configures Grafana to use InfluxDB as a data source,
+# using the hostname configured in docker-compose ‘influxdb’
+# to connect to the database over the local docker network on port 8086.
+apiVersion: 1
+
+datasources:
+  - name: my_influxdb
+    type: influxdb
+    access: proxy
+    database: selenium_test_results
+    url: http://influxdb:8086
+    isDefault: true
