@@ -2,7 +2,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.*;
 import utils.MyWebDriverManger;
-import utils.RetryAnalyzer;
 
 public class RetryAnalyzerTest {
     private String baseURL = "http://google.com";
@@ -20,6 +19,7 @@ public class RetryAnalyzerTest {
     public void validateResult() throws InterruptedException {
         driver.get(baseURL);
         driver.findElement(By.cssSelector("[name='q']")).sendKeys("Automation Test");
+
         Thread.sleep(2000);
 
         // Force it to fail
@@ -28,7 +28,7 @@ public class RetryAnalyzerTest {
 
     @AfterTest
     public void close() {
-        driver.quit();
+        driver.close();
     }
 
 }

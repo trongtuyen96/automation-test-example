@@ -3,7 +3,6 @@ import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.*;
 import utils.MyWebDriverManger;
-
 import java.util.concurrent.TimeUnit;
 
 public class DataProviderTest {
@@ -16,11 +15,6 @@ public class DataProviderTest {
 
     @BeforeTest
     public void setWebDriver() {
-
-        // Old way to initialize web driver
-        // System.setProperty("webdriver.chrome.driver", "src\\main\\resources\\chromedriver.exe");
-        // driver = new ChromeDriver();
-
         webDriver = new MyWebDriverManger().initBrowser("CHROME");
         webDriver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
         webDriver.get("https://www.calculator.net/");

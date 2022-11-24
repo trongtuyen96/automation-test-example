@@ -5,11 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fce13d37-c9c9-4e79-8d48-2d4527fef29a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/utils/AnnotationTransformer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ATWTPageFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ATWTPageFactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ATWTTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ATWTPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DataProviderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DataProviderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ExcelPOITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ExcelPOITest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ExtentReportTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ExtentReportTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MultiBrowserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MultiBrowserTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/RetryAnalyzerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RetryAnalyzerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/MyWebDriverManger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/MyWebDriverManger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/RetryAnalyzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/RetryAnalyzer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,7 +172,17 @@
       <recent name="pages" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.D:/Study/Projects/automation-test-example/src/test/execution/Retry.xml">
+  <component name="RunManager" selected="TestNG.D:/Study/Projects/automation-test-example/src/test/execution/Parallel.xml">
+    <configuration name="D:/Study/Projects/automation-test-example/src/test/execution/MultiBrowser.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="automation-test-example" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/execution/MultiBrowser.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="D:/Study/Projects/automation-test-example/src/test/execution/Parallel.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="automation-test-example" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/execution/Parallel.xml" />
@@ -180,20 +193,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="D:/Study/Projects/automation-test-example/src/test/execution/Retry.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="automation-test-example" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/execution/Retry.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RetryAnalyzerTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DataProviderTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="automation-test-example" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RetryAnalyzerTest" />
+      <option name="MAIN_CLASS_NAME" value="DataProviderTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -201,22 +204,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RetryAnalyzerTest.validateResult" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ExcelPOITest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="automation-test-example" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RetryAnalyzerTest" />
-      <option name="METHOD_NAME" value="validateResult" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="MAIN_CLASS_NAME" value="ExcelPOITest" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SampleTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ExtentReportTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="automation-test-example" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SampleTest" />
+      <option name="MAIN_CLASS_NAME" value="ExtentReportTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -226,11 +228,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.D:/Study/Projects/automation-test-example/src/test/execution/Retry.xml" />
-        <item itemvalue="TestNG.RetryAnalyzerTest" />
-        <item itemvalue="TestNG.RetryAnalyzerTest.validateResult" />
-        <item itemvalue="TestNG.SampleTest" />
         <item itemvalue="TestNG.D:/Study/Projects/automation-test-example/src/test/execution/Parallel.xml" />
+        <item itemvalue="TestNG.D:/Study/Projects/automation-test-example/src/test/execution/MultiBrowser.xml" />
+        <item itemvalue="TestNG.ExtentReportTest" />
+        <item itemvalue="TestNG.ExcelPOITest" />
+        <item itemvalue="TestNG.DataProviderTest" />
       </list>
     </recent_temporary>
   </component>

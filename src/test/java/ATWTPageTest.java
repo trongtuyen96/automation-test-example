@@ -8,7 +8,7 @@ import utils.MyWebDriverManger;
 
 import java.util.concurrent.TimeUnit;
 
-public class ATWTTest {
+public class ATWTPageTest {
     static WebDriver driver;
 
     // Home Page with POM
@@ -16,11 +16,6 @@ public class ATWTTest {
 
     @BeforeTest
     public void setDriver() {
-
-        // Old way to initialize web driver
-        // System.setProperty("webdriver.chrome.driver", "src\\main\\resources\\chromedriver.exe");
-        // driver = new ChromeDriver();
-
         driver = new MyWebDriverManger().initBrowser("CHROME");
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.get("https://www.automatedtestingwithtuyen.com");

@@ -9,16 +9,6 @@ public class MultiBrowserTest {
     @Parameters("browser")
     @BeforeMethod
     public void setDriver(String browser) {
-
-        // Old way to initialize web driver
-        /* if (browser.toLowerCase().equals("chrome")) {
-            System.setProperty("webdriver.chrome.driver", "src\\main\\resources\\chromedriver.exe");
-            driver = new ChromeDriver();
-        } else if (browser.toLowerCase().equals("firefox")) {
-            System.setProperty("webdriver.gecko.driver", "src\\main\\resources\\geckodriver.exe");
-            driver = new FirefoxDriver();
-        } */
-
         driver = new MyWebDriverManger().initBrowser(browser.toUpperCase());
         driver.get("https://www.google.com");
     }
