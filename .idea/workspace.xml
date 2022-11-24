@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fce13d37-c9c9-4e79-8d48-2d4527fef29a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/utils/AnnotationTransformer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MultiBrowserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MultiBrowserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RetryAnalyzerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RetryAnalyzerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/MyWebDriverManger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/MyWebDriverManger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/RetryAnalyzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/RetryAnalyzer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +37,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -133,63 +144,32 @@
   </component>
   <component name="PropertiesComponent">
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1594741029708" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../automation-test-framework-api-pro" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/execution" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Study\Projects\automation-test-example\src\test\execution" />
       <recent name="D:\Study\automationFramework\src\test\java" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="" />
-      <recent name="utils" />
-      <recent name="pages" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Study\automationFramework\src\test\java" />
       <recent name="D:\Study\automationFramework\src\test\execution" />
       <recent name="D:\Study\automationFramework\src\test\utils" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+      <recent name="utils" />
+      <recent name="pages" />
+    </key>
   </component>
-  <component name="RunManager" selected="TestNG.D:/Study/Projects/automation-test-example/src/test/execution/Parallel.xml">
-    <configuration name="ATWTPageFactoryTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="automationTestExample" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ATWTPageFactoryTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ATWTTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="automation-test-example" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ATWTTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="D:/Study/Projects/automation-test-example/src/test/execution/MultiBrowser.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="automation-test-example" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/execution/MultiBrowser.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.D:/Study/Projects/automation-test-example/src/test/execution/Retry.xml">
     <configuration name="D:/Study/Projects/automation-test-example/src/test/execution/Parallel.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="automation-test-example" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/execution/Parallel.xml" />
@@ -200,10 +180,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExtentReportTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="D:/Study/Projects/automation-test-example/src/test/execution/Retry.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="automation-test-example" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/execution/Retry.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RetryAnalyzerTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="automation-test-example" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ExtentReportTest" />
+      <option name="MAIN_CLASS_NAME" value="RetryAnalyzerTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RetryAnalyzerTest.validateResult" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="automation-test-example" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RetryAnalyzerTest" />
+      <option name="METHOD_NAME" value="validateResult" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SampleTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="automation-test-example" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SampleTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -213,11 +226,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.D:/Study/Projects/automation-test-example/src/test/execution/Retry.xml" />
+        <item itemvalue="TestNG.RetryAnalyzerTest" />
+        <item itemvalue="TestNG.RetryAnalyzerTest.validateResult" />
+        <item itemvalue="TestNG.SampleTest" />
         <item itemvalue="TestNG.D:/Study/Projects/automation-test-example/src/test/execution/Parallel.xml" />
-        <item itemvalue="TestNG.D:/Study/Projects/automation-test-example/src/test/execution/MultiBrowser.xml" />
-        <item itemvalue="TestNG.ExtentReportTest" />
-        <item itemvalue="TestNG.ATWTTest (1)" />
-        <item itemvalue="TestNG.ATWTPageFactoryTest" />
       </list>
     </recent_temporary>
   </component>
@@ -298,6 +311,17 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">

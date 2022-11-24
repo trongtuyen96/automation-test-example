@@ -11,6 +11,9 @@ public class RetryAnalyzer implements IRetryAnalyzer {
     public boolean retry(ITestResult iTestResult) {
         if (retryCount < maxRetryCount) {
             retryCount++;
+        try {
+                Thread.sleep(2000);
+            } catch (Exception e) { }
             return true;
         }
         return false;

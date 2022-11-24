@@ -13,11 +13,6 @@ public class MyWebDriverManger {
     public WebDriver initBrowser(String browserType) {
         WebDriver webDriver;
         switch (browserType.toUpperCase()) {
-            case "CHROME": {
-                WebDriverManager.chromedriver().setup();
-                webDriver = new ChromeDriver();
-                break;
-            }
             case "FIREFOX": {
                 WebDriverManager.firefoxdriver().setup();
                 webDriver = new FirefoxDriver();
@@ -31,6 +26,16 @@ public class MyWebDriverManger {
             case "EDGE":{
                 WebDriverManager.edgedriver().setup();
                 webDriver = new EdgeDriver();
+                break;
+            }
+            case "OPERA":{
+                WebDriverManager.operadriver().setup();
+                webDriver = new OperaDriver();
+                break;
+            }
+            case "SAFARI":{
+                WebDriverManager.safaridriver().setup();
+                webDriver = new SafariDriver();
                 break;
             }
             default: {
