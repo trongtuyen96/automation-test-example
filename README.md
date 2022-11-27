@@ -99,6 +99,10 @@ Test results are synced in near real time by combination of InfluxDb and Grafana
 	- InfluxDB_Grafana.xml to execute test
 - SUT: github.com
 - Tests: validate overview page, repository page and test results are synced up in Grafana localhost:3000
+- To build containers: 
+	```bash
+	docker-compose up -d influxdb grafana
+	```
 
 Addition: Dynamically find the suitable web driver (chromedriver, firefoxdriver, etc) against multiple versions in runtime via WebDriverManager.
 
