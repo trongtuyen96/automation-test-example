@@ -6,37 +6,99 @@
   <br>
 </h1>
 
-<h3 align="center" style="bold">Simple automation test examples based on Selenium, TestNG framework</h3>
+<h3 align="center" style="bold">Simple automation test examples based on Selenium, TestNG framework with some cool features</h3>
 
 ## Table of Contents
-- [Key Example](#key-examples)
+- [Sanmple Test](#sample-test)
+- [Data Provider Test](#data-provider-test)
+- [ExcelPOI Test](#excelpoi-test)
+- [Multi Browser Test](#multi-browser-test)
+- [ATWT Page Test](#atwt-page-test)
+- [ATWT Page Factory Test](#atwt-page-factory-test)
+- [ExtentReport Test](#extentreport-test)
+- [Retry Analyzer Test](#retry-analyzer-test)
+- [Real Time Result Test](#real-time-result-test)
 - [Author](#author)
 - [License](#license)
 
-## Key Examples
-- Sample Test: 
+## Sample Test
 An example where setting up an chrome driver, run simple test and validate result.
+- Related classes: MyWebDriverManager for setting up web driver
+- SUT: google.com
+- Tests: validate search results
 
-- DataProvider Test: 
+
+## Data Provider Test
 Apply dataProvider annotation from TestNG to parameterized input data.
+- Related files/classes: MyWebDriverManager for setting up web driver
+- SUT: clculator.com
+- Tests: validate add calculations, there are 2 tests run with data passing by returned object of @DataProvider annotation
 
-- ExcelPOI Test: 
+## ExcelPOI Test
 Data-Driven with data read from Excel file, excel utilities provided.
+- Related files/classes: 
+	- MyWebDriverManager for setting up web driver
+	- ExcelUtis for reading data from excel files
+	- Data.xlsx is excel file test data
+- SUT: clculator.net
+- Tests: validate add calculations, there are 2 tests run with data passing by returned object of @DataProvider annotation
 
-- MultiBrowser Test: 
+## Multi Browser Test
 Execute test on multiple browsers, parallel run allowed.
+- Related files/classes: 
+	- MyWebDriverManager for setting up web driver
+	- MultiBrowser.xml for running on multiple browsers
+	- Parallel.xml for running parallelly
+- SUT: automatedtestingiwthtuyen.com
+- Tests: validate current url of page, the browser to run is parameterized by setDriver function
 
-- ATWTT Test: 
+## ATWT Page Test
 An test with test page (automatedtestingwithtuyen.com) were built following Page Object Model.
+- Related files/classes: 
+	- MyWebDriverManager for setting up web driver
+	- ATWTHomePage class to define locators and functions
+- SUT: automatedtestingiwthtuyen.com
+- Tests: validate navigation to forum, author pages and search results
 
-- ATWTT Page Factory Test: 
+## ATWT Page Factory Test
 An test with test page (automatedtestingwithtuyen.com) were built following Page Factory.
+- Related files/classes: 
+	- MyWebDriverManager for setting up web driver
+	- ATWTHomePageFactory class to define locators, functions and set up page factory
+- SUT: automatedtestingiwthtuyen.com
+- Tests: validate navigation to forum, author pages and search results
 
-- ExtentReport Test: 
+## ExtentReport Test
 Apply ExtentReport to generate beautiful, fully-detailed, well-organized result report. Fail screenshots captured.
+- Related files/classes: 
+	- MyWebDriverManager for setting up web driver
+	- extent-config.xml to format extent report
+	- report is generated under test-output/ExtentReport_yyyyMMddhhmmss
+	- screenshot is located at test-output/screenshots
+- SUT: calculator.net
+- Tests: validate calculation results, failed cases will be captured with screenshots in report
 
-- Retry Analyzer Test: 
+## Retry Analyzer Test
 Automatically retry to execute failed test cases.
+- Related files/classes: 
+	- MyWebDriverManager for setting up web driver
+	- RetryAnalyzer with retry count up to 2 times
+	- AnnotationTransformer to execute annotations at runtime
+	- Retry.xml to run test via execution file
+- SUT: google.com
+- Tests: validate results, the test was forced to fail to check retry feature
+
+## Real Time Result Test
+Test results are synced in near real time by combination of InfluxDb and Grafana dashboard (with Docker containerized).
+- Related files/classes: 
+	- MyWebDriverManager for setting up web driver
+	- InfluxDBManager to set up DB connection, DB name and instance
+	- InfluxDBListener to write data on test results
+	- docker-compose.xml to set up Grafana and InfluxDB containers
+	- grafana-datasource.xml to set up datasource for Grafana
+	- InfluxDB_Grafana.xml to execute test
+- SUT: github.com
+- Tests: validate overview page, repository page and test results are synced up in Grafana localhost:3000
 
 Addition: Dynamically find the suitable web driver (chromedriver, firefoxdriver, etc) against multiple versions in runtime via WebDriverManager.
 
