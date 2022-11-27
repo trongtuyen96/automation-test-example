@@ -4,9 +4,9 @@
     <listeners>
         <listener class-name="utils.influxdb.InfluxDBListener" />
     </listeners>
-    <test name="InfluxDB_GrafanaTest">
+    <test name="RealTimeResultTest">
         <classes>
-            <class name="DataProviderTest"/>
+            <class name="RealTimeResultTest"/>
         </classes>
     </test>
 </suite>

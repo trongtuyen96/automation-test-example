@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fce13d37-c9c9-4e79-8d48-2d4527fef29a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/automation-test-example.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/execution/InfluxDB_Grafana.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/execution/InfluxDB_Grafana.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MultiBrowserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MultiBrowserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SampleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/influxdb/InfluxDBManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/influxdb/InfluxDBManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Data.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/chromedriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/extent-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/geckodriver.exe" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +173,7 @@
       <recent name="pages" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.D:/Study/Projects/automation-test-example/src/test/execution/InfluxDB_Grafana.xml">
+  <component name="RunManager" selected="TestNG.RealTimeResultTest">
     <configuration name="D:/Study/Projects/automation-test-example/src/test/execution/InfluxDB_Grafana.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="automation-test-example" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/execution/InfluxDB_Grafana.xml" />
@@ -198,10 +204,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExcelPOITest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="RealTimeResultTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="automation-test-example" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ExcelPOITest" />
+      <option name="MAIN_CLASS_NAME" value="RealTimeResultTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -209,11 +215,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExtentReportTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="RealTimeResultTest.testRepoTab" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="automation-test-example" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ExtentReportTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="RealTimeResultTest" />
+      <option name="METHOD_NAME" value="testRepoTab" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -222,11 +229,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.RealTimeResultTest" />
+        <item itemvalue="TestNG.RealTimeResultTest.testRepoTab" />
         <item itemvalue="TestNG.D:/Study/Projects/automation-test-example/src/test/execution/InfluxDB_Grafana.xml" />
         <item itemvalue="TestNG.D:/Study/Projects/automation-test-example/src/test/execution/Parallel.xml" />
         <item itemvalue="TestNG.D:/Study/Projects/automation-test-example/src/test/execution/MultiBrowser.xml" />
-        <item itemvalue="TestNG.ExtentReportTest" />
-        <item itemvalue="TestNG.ExcelPOITest" />
       </list>
     </recent_temporary>
   </component>
@@ -318,6 +325,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">

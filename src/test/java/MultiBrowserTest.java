@@ -10,14 +10,11 @@ public class MultiBrowserTest {
     @BeforeMethod
     public void setDriver(String browser) {
         driver = new MyWebDriverManger().initBrowser(browser.toUpperCase());
-        driver.get("https://www.google.com");
+        driver.get("https://www.automatedtestingwithtuyen.com/");
     }
 
     @Test
-    public void Search() throws InterruptedException {
-        Assert.assertEquals(driver.getCurrentUrl(), "https://www.google.com/", "In Google page");
-        Thread.sleep(1000);
-        driver.get("https://www.automatedtestingwithtuyen.com/");
+    public void navigateToPage() throws InterruptedException {
         Thread.sleep(1000);
         Assert.assertEquals(driver.getCurrentUrl(), "https://www.automatedtestingwithtuyen.com/", "In ATWT page");
     }

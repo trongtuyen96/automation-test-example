@@ -23,7 +23,7 @@ public class SampleTest {
     }
 
     @Test(priority = 0)
-    public void Search() throws InterruptedException {
+    public void search() throws InterruptedException {
         driver.findElement(By.cssSelector("[name='q']")).sendKeys("Automation Test", Keys.ENTER);
     }
 
