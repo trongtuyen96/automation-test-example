@@ -6,14 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fce13d37-c9c9-4e79-8d48-2d4527fef29a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/execution/InfluxDB_Grafana.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/execution/InfluxDB_Grafana.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MultiBrowserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MultiBrowserTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SampleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/influxdb/InfluxDBManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/influxdb/InfluxDBManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Data.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chromedriver.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/extent-config.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/geckodriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/execution/Parallel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/execution/ParallelMultiBrowser.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +16,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin Class" />
         <option value="Class" />
       </list>
     </option>
@@ -173,10 +167,10 @@
       <recent name="pages" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.RealTimeResultTest">
-    <configuration name="D:/Study/Projects/automation-test-example/src/test/execution/InfluxDB_Grafana.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.D:/Study/Projects/automation-test-example/src/test/execution/ParallelTestWithReport.xml">
+    <configuration name="D:/Study/Projects/automation-test-example/src/test/execution/ParallelTestWithReport_Fail.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="automation-test-example" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/execution/InfluxDB_Grafana.xml" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/execution/ParallelTestWithReport_Fail.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -184,9 +178,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="D:/Study/Projects/automation-test-example/src/test/execution/MultiBrowser.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="D:/Study/Projects/automation-test-example/src/test/execution/ParallelTestWithReport.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="automation-test-example" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/execution/MultiBrowser.xml" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/execution/ParallelTestWithReport.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -194,9 +188,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="D:/Study/Projects/automation-test-example/src/test/execution/Parallel.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="D:/Study/Projects/automation-test-example/src/test/execution/ParallelTest.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="automation-test-example" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/execution/Parallel.xml" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/execution/ParallelTest.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -204,10 +198,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RealTimeResultTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ExtentReportTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="automation-test-example" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RealTimeResultTest" />
+      <option name="MAIN_CLASS_NAME" value="ExtentReportTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -215,12 +209,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RealTimeResultTest.testRepoTab" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ParallelTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="automation-test-example" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RealTimeResultTest" />
-      <option name="METHOD_NAME" value="testRepoTab" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="parallel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="parallel" />
+      <option name="MAIN_CLASS_NAME" value="parallel.ParallelTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -229,11 +228,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.RealTimeResultTest" />
-        <item itemvalue="TestNG.RealTimeResultTest.testRepoTab" />
-        <item itemvalue="TestNG.D:/Study/Projects/automation-test-example/src/test/execution/InfluxDB_Grafana.xml" />
-        <item itemvalue="TestNG.D:/Study/Projects/automation-test-example/src/test/execution/Parallel.xml" />
-        <item itemvalue="TestNG.D:/Study/Projects/automation-test-example/src/test/execution/MultiBrowser.xml" />
+        <item itemvalue="TestNG.D:/Study/Projects/automation-test-example/src/test/execution/ParallelTestWithReport.xml" />
+        <item itemvalue="TestNG.D:/Study/Projects/automation-test-example/src/test/execution/ParallelTestWithReport_Fail.xml" />
+        <item itemvalue="TestNG.D:/Study/Projects/automation-test-example/src/test/execution/ParallelTest.xml" />
+        <item itemvalue="TestNG.ExtentReportTest" />
+        <item itemvalue="TestNG.ParallelTest" />
       </list>
     </recent_temporary>
   </component>

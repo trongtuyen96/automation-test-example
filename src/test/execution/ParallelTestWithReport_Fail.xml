@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="methods" thread-count="3">
+    <!--This run will not be same as ParallelTestWithReport because:
+    1. Parallel mode is methods, so it take all specified inside methods tag.
+    2. They are in the same code space (test tag) so in the test, although there are 3 drivers created,
+     they are using the same variable, that's why only one driver can be manipulated. -->
+    <test name="Test">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="parallel.ParallelTest">
+                <methods>
+                    <include name="navigateToPatterns"/>
+                    <include name="navigateToTools"/>
+                    <include name="navigateToFrameworks"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
