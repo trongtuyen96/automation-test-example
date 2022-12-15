@@ -18,6 +18,7 @@
 - [ExtentReport Test](#extentreport-test)
 - [Retry Analyzer Test](#retry-analyzer-test)
 - [Real Time Result Test](#real-time-result-test)
+- [Parallel Test With Consolidated Report](#parallel-test-with-consolidated-report)
 - [Author](#author)
 - [License](#license)
 
@@ -103,6 +104,18 @@ Test results are synced in near real time by combination of InfluxDb and Grafana
 	```bash
 	docker-compose up -d influxdb grafana
 	```
+	
+## Parallel Test With Consolidated Report
+Tests are run parallely and one consolidated report is generated for total results.
+- Related files/classes: 
+	- MyWebDriverManager for setting up web driver
+	- ExtentManager to set up Extent report
+	- ExtentTestManager to set up methods for logging test on Extent report 
+	- ParallelTestWithReport.xml to set up parallel runs by test methods
+	- Report is located at /test-ouput
+- SUT: automatedtestingwithtuyen.com
+- Tests: validate patterns page, tools page and frameworks page current urls.
+
 
 Addition: Dynamically find the suitable web driver (chromedriver, firefoxdriver, etc) against multiple versions in runtime via WebDriverManager.
 
