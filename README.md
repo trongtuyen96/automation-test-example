@@ -9,7 +9,7 @@
 <h3 align="center" style="bold">Simple automation test examples based on Selenium, TestNG framework with some cool features</h3>
 
 ## Table of Contents
-- [Sanmple Test](#sample-test)
+- [Sample Test](#sample-test)
 - [Data Provider Test](#data-provider-test)
 - [ExcelPOI Test](#excelpoi-test)
 - [Multi Browser Test](#multi-browser-test)
@@ -28,11 +28,10 @@ An example where setting up an chrome driver, run simple test and validate resul
 - SUT: google.com
 - Tests: validate search results
 
-
 ## Data Provider Test
 Apply dataProvider annotation from TestNG to parameterized input data.
 - Related files/classes: MyWebDriverManager for setting up web driver
-- SUT: clculator.com
+- SUT: calculator.com
 - Tests: validate add calculations, there are 2 tests run with data passing by returned object of @DataProvider annotation
 
 ## ExcelPOI Test
@@ -41,7 +40,7 @@ Data-Driven with data read from Excel file, excel utilities provided.
 	- MyWebDriverManager for setting up web driver
 	- ExcelUtis for reading data from excel files
 	- Data.xlsx is excel file test data
-- SUT: clculator.net
+- SUT: calculator.net
 - Tests: validate add calculations, there are 2 tests run with data passing by returned object of @DataProvider annotation
 
 ## Multi Browser Test
@@ -112,7 +111,7 @@ Tests are run parallely and one consolidated report is generated for total resul
 	- ExtentManager to set up Extent report
 	- ExtentTestManager to set up methods for logging test on Extent report 
 	- ParallelTestWithReport.xml to set up parallel runs by test methods
-	- Report is located at /test-ouput
+	- Report is located at /test-output
 - SUT: automatedtestingwithtuyen.com
 - Tests: validate patterns page, tools page and frameworks page current urls.
 
